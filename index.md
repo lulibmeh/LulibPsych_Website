@@ -1,19 +1,17 @@
-## Welcome I don't know what the fuck i am doing!!
+## I don't know what the fuck i am doing!!
 
-You can use the [editor on GitHub](https://github.com/LulibPsyche/Hello-world/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### Why this? you may ask
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
 Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+# i
+## do not
+### know
 
 - Bulleted
 - List
