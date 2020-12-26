@@ -1,0 +1,34 @@
+body {
+    font-family: "Gruppo", cursive;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    color: #ebfcfa;
+    background-image: url(cool-background.png);
+  }
+
+  .entendendores {
+border: 0.05em solid #75A79C;
+border-radius: 0.5em;
+border-width: 0.05em;
+box-shadow: 3px 1px 0px 0px #343a40;
+background-color: #75A79C;
+padding: 1em;
+margin: 2em;     
+opacity: 80%;
+           
+  }
+
+
+
+  h1,
+h2,
+h3 {
+  float: left;
+  height: 3em;
+  width: 7em;
+  text-align: center;
+  text-decoration: initial #8d6a77;
+  text-decoration-style: double;
+}
+
