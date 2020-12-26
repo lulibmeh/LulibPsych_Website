@@ -1,0 +1,108 @@
+body {
+  font-family: "Gruppo", cursive;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  color: #ebfcfa;
+  background-image: url(cool-background.png);
+
+}
+.contactinfo ul {
+  display: flex;
+  justify-content: flex-start;
+  margin: 2em;
+}
+.contactinfo li {
+  margin-left: 80px;
+  border-left: 2px solid #8d6a77;
+  border-bottom: 2px solid #8d6a77;
+}
+.quickpath {
+  background-color: #75A79C;
+  border: 0.2em solid #ced4da;
+  border-radius: 0.3em;
+  box-shadow: 0.1em 0.1em 0.1em 0em #3a8f86;
+  font-size: inherit;
+  padding: 0.8em;
+  transition: transform 200ms, box-shadow 140ms;
+  opacity: 90%;
+}
+.quickpath:hover {
+  box-shadow: 0.1em 0.1em 0.8em 0.2em #343a40;
+  background-color: #66968B;
+  transform: translate(2px);
+}
+
+.quickpath a {
+  color: #ebfcfa;
+}
+.minhadefinição {
+  clear: inline-start;
+  border: 0.05em solid #ebebeb;
+  border-radius: 0.5em;
+  padding: 1em;
+  margin: 1em;
+  box-shadow: 3px 1px 0px 0px #343a40;
+  background-color: #75A79C;
+  opacity: 80%;
+}
+.porqueumsite {
+  border: 0.05em solid #ebebeb;
+  border-radius: 0.5em;
+  padding: 1em;
+  margin: 1em;
+  box-shadow: 3px 1px 0px 0px #343a40;
+  background-color: #75A79C;
+  opacity: 80%;
+}
+.qualoobjetivo {
+  border: 0.05em solid #ebebeb;
+  border-radius: 0.5em;
+  padding: 1em;
+  margin: 1em;
+  box-shadow: 3px 1px 0px 0px #343a40;
+  background-color: #75A79C;
+  opacity: 80%;
+}
+
+#comment {
+  margin: 0.5em 0.5em 0.5em 0.3em;
+  background-color: #ecf8f6;
+  border: 0.05em solid #8d6a77;
+  box-shadow: 3px 1px 0px 0px #343a40;
+  opacity: 50%;
+}
+#comment::placeholder {
+  color: #ebfcfa;
+  opacity: 0.4;
+  text-align: center;
+  padding: 2em;
+}
+#commentbutton {
+  background-color: #75A79C;
+  border: 0.2em solid #ced4da;
+  border-radius: 0.3em;
+  box-shadow: 0.1em 0.1em 0.1em 0em #3a8f86;
+  font-size: inherit;
+  padding: 0.8em;
+  transition: transform 200ms, box-shadow 140ms;
+  opacity: 90%;
+}
+#commentbutton:hover {
+    box-shadow: 0.1em 0.1em 0.8em 0.2em #343a40;
+    background-color: #66968B;
+    transform: translate(2px);
+}
+h1,
+h2,
+h3 {
+  float: left;
+  height: 2em;
+  width: 5em;
+  text-align: left;
+  text-decoration: initial #8d6a77;
+  text-decoration-style: double;
+}
+h4 {
+  margin: 2em 0em 1em 3em;
+}
