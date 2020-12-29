@@ -4,19 +4,33 @@ body {
   display: flex;
   flex-direction: column;
   color: #ebfcfa;
-  background-image: url(cool-background.png);
+  background-color: #C3C1C1;
 
+}
+.contactinfo {
+background-color: #278A91;
+border-radius: 5em 50em 50em 50em;
+width: 250px;
+height: 50px;
+border: 1px solid #FAF3DD;
+opacity: 30%;
+margin: 10px;
 }
 .contactinfo ul {
   display: flex;
-  justify-content: flex-start;
-  margin: 2em;
+  text-align: center;
 }
 .contactinfo li {
-  margin-left: 80px;
+  margin: 2px 15px 2px 1px;
   border-left: 2px solid #8d6a77;
   border-bottom: 2px solid #8d6a77;
 }
+.contactinfo a {
+  color: #000;
+}
+
+
+
 .quickpath {
   background-color: #75A79C;
   border: 0.2em solid #ced4da;
@@ -26,6 +40,7 @@ body {
   padding: 0.8em;
   transition: transform 200ms, box-shadow 140ms;
   opacity: 90%;
+
 }
 .quickpath:hover {
   box-shadow: 0.1em 0.1em 0.8em 0.2em #343a40;
@@ -35,6 +50,13 @@ body {
 
 .quickpath a {
   color: #ebfcfa;
+  
+}
+
+.understanding-the-point{
+  background-color: #C97C5D;
+  border-radius: 50em 0.2em;
+ 
 }
 .minhadefinição {
   clear: inline-start;
@@ -102,6 +124,7 @@ h3 {
   text-align: left;
   text-decoration: initial #8d6a77;
   text-decoration-style: double;
+
 }
 h4 {
   margin: 2em 0em 1em 3em;
