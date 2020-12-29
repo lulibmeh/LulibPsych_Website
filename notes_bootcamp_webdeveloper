@@ -1,0 +1,204 @@
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+variables - it is possible to use different values like...
+
+1.let
+variables that can have their value changed;
+2.const
+Variables that are used for storing values that will not change!
+3.var
+old way to make variables, not realy a good tool.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+1. Operators
+++ - variable plus one
+% - (module:reminder) returns the reminder left over of division
+
+identifier rules:
+1. no space ok? nospaceok?
+2. do  not star with a digit, so no 1hunter but hunter1
+3. Do not use under core 
+4. Caps on each word but the first one!!!!! soAlwaysUseCapsLikeThis doNotTrySomethingElse!
+5. Give good names to the identifiers so others and even you can remember what the fuck you ment by it afterwords
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+NEXT LESSONS! (in case of doubt use "typeof" so the value  appears in the next line)
+thing.method(argument)
+
+1. String Basics
+2. Indices and Length
+3. Undefined & Null
+4. String Methods
+5. String Template Literals
+6. Random Numbers and the math objects
+
+1. Strings!!!
+Text needs to be wraped in "quotes", single or double, whatever
+->the only exception would be in case of quotes inside a string "in that case 'you' should do this"
+
+
+2. potatos [5]
+potatos.length
+
+"amazing'+"potatos" - "amazingpotatos"
+
+3. String methods
+.toUpperCase()
+
+trim: characters that are space can be taken away with: .trim()
+
+arguments: 
+.indexOf("something")
+.slice()
+.replace('something', 'to something')
+.repeat()
+
+
+Back - Ticks
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Boolean Logic:Making decisions with javascript
+
+1. Comparion Operators
+2.  Running JavaScript from a file
+3.Conditionals: if, else-if,and else
+4. Truth-y and false-y values
+5. logical and
+6. logical or
+7. Logical not
+
+3.Conditionals
+IF statement - runs if given condition
+if (condition) { console.log ("something")};
+ELSEIF
+else if (condition) { console.log("something")};
+ELSE
+else{ console.log("something")};
+
+
+truty_falsy
+Logical Operators - 
+AND - && - right and left needs to be toUpperCase
+true && true = true
+OR - || - ONly one side needs to be Truth
+NOT - resuls in true if it is false
+AND - both sides need to be truth
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+1. Array basics - creating and updating
+2. Push & Pop
+3. Shift & Unshift
+4. Concat, indexOf
+5. Slice & Splice
+6. Multi dimensional arrays
+
+
+
+1. Arrays(list)
+ordered collections of values - each element has it's on index
+stuff = [];
+
+Array Methods - like:
+
+2. Push & Pop(method)
+something.push("argument") - adds one or more to the end of the array(list)
+something.pop(no argument) - removes last item from the array(list) and gives the removed item so it can be used in variable
+
+3. Shift & Unshift
+Shift  - removes argument from the begining of an array(list)
+something.shit(no argument)
+Unshift - add argument  in tthe begining of an array(list)
+
+4. Concat, indexOf
+Concat - makes new array(list) combining to other arrays(Lists) without modifying them
+array1.concat(argument(it is the array2)) or let identifier(variableName) = array1.concat(array2)
+indexOf - Shows if argument is array index
+
+5. Slice & Splice
+slice - Makes a second array with slice opted (stopping up to, does not includes the end, only the start) without modifying the original array
+array.slice(start of the sile, end of the slice(end is optional))
+
+splice - deletes arguments according to index provided and adds in arguments if needed
+array.splice(index of start, how many indexes delete, item(argument to be added in case you want to if not, it is optional))
+
+6.  Multi dimensional Arrays
+sort - 
+
+reverse - reverses original array modifying it
+array.reverse()
+ --------------------------------------------------------------------------------------------------------------------------------
+ 
+ 1.Creating and Working with object Literals
+ 2. Nesting arrays and objects
+
+ 1. Creating and Working With Object Literals
+ - store data with objects with labels
+
+ exemple:
+ const fitBitData= {
+ key: value,
+ userName: "crazyCatLady",
+ upvotes: 7
+
+ };
+
+2. Nesting Arrays and objects
+
+arrays + objects
+
+each comment is a object
+const comments = [
+    {username: "Tamy", text:  "sure", votes: 99};
+]
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+1.For Loops
+2.Nested Loops
+3.While Loops
+4.The Break Keyword
+5.For...Of Loop
+6.Iterating Arrays
+7.Iterating objects
+
+
+1. Loops
+repeat a code = Loop
+i is used mainly for Loop but you can use a different variable name as long as you be consistent with it
+
+
+
+a. for loop syntax:
+for (
+    [initialExpression];
+    [condition];
+    [incrementExpression]
+)
+
+- a example would be:
+for (let potato = 9; potato <= 50; potato += 3){
+        console.log("para caralho, seu merda da porra");
+        console.log(potato);}
+
+
+Looping Over Arrays
+continue looping in till last index;
+
+
+
+------------------------------------------------------------------------------------------------------------------------
+1.Defining Functions
+2.Working With Arguments
+3.Function REturn Values
+4.Function Excercises
+
+
+
+
+
+
+
+Function funName () {
+    //do something
+}
