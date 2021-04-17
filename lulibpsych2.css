@@ -53,39 +53,6 @@ margin: 10px;
   
 }
 
-.understanding-the-point{
-  background-color: #C97C5D;
-  border-radius: 50em 0.2em;
- 
-}
-.minhadefinição {
-  clear: inline-start;
-  border: 0.05em solid #ebebeb;
-  border-radius: 0.5em;
-  padding: 1em;
-  margin: 1em;
-  box-shadow: 3px 1px 0px 0px #343a40;
-  background-color: #75A79C;
-  opacity: 80%;
-}
-.porqueumsite {
-  border: 0.05em solid #ebebeb;
-  border-radius: 0.5em;
-  padding: 1em;
-  margin: 1em;
-  box-shadow: 3px 1px 0px 0px #343a40;
-  background-color: #75A79C;
-  opacity: 80%;
-}
-.qualoobjetivo {
-  border: 0.05em solid #ebebeb;
-  border-radius: 0.5em;
-  padding: 1em;
-  margin: 1em;
-  box-shadow: 3px 1px 0px 0px #343a40;
-  background-color: #75A79C;
-  opacity: 80%;
-}
 
 #comment {
   margin: 0.5em 0.5em 0.5em 0.3em;
